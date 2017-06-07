@@ -92,6 +92,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 
+function multiplyArray(arr){
+var prod = 1;
+for(var i = 0; i<arr.length; i++){
+  prod =prod * arr[i];
+};
+return [prod, 'The numbers ' + arr[0] + ',' + arr[1]+ ',' + arr[2] + ' have a product of 24.'];
+};
+
+multiplyArray([2,3,4]);
+
+
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
 
