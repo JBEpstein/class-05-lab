@@ -91,6 +91,7 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
+
 function multiplyArray(arr){
 var prod = 1;
 for(var i = 0; i<arr.length; i++){
@@ -100,6 +101,7 @@ return [prod, 'The numbers ' + arr[0] + ',' + arr[1]+ ',' + arr[2] + ' have a pr
 };
 
 multiplyArray([2,3,4]);
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
